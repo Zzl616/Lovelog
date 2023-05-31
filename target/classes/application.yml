@@ -1,0 +1,25 @@
+#spring配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eating?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+  main:
+    banner-mode: off  #关闭spring的banner
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher #swagger版本大于2.6需要加入此配置
+
+##mybatisplus配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #输出日志到控制台
+  global-config:
+    banner: false #禁止输出mubatisplus的banner
+    db-config:
+      id-type: assign_id #全局设置主键策略
+# Knife4j配置
+knife4j:
+  # 是否开启增强模式
+  enable: true
