@@ -35,19 +35,25 @@
             <artifactId>velocity-engine-core</artifactId>
             <version>2.3</version>
         </dependency>
-<!--        以上是基础模板-->
+        <!--        以上是基础模板-->
         <dependency>
             <!-- Spring Boot Redis Starter，包含了 Jedis 和 Lettuce 等 Redis 相关的依赖 -->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
-<!--        如果有knife4j不需要添加swagger-->
-<!--        <dependency>-->
-<!--            &lt;!&ndash; Swagger 的 Spring Boot Starter，可以方便地与 Spring MVC 集成 &ndash;&gt;-->
-<!--            <groupId>io.springfox</groupId>-->
-<!--            <artifactId>springfox-boot-starter</artifactId>-->
-<!--            <version>3.0.0</version>-->
-<!--        </dependency>-->
+        <!--        如果有knife4j不需要添加swagger-->
+        <!--        <dependency>-->
+        <!--            &lt;!&ndash; Swagger 的 Spring Boot Starter，可以方便地与 Spring MVC 集成 &ndash;&gt;-->
+        <!--            <groupId>io.springfox</groupId>-->
+        <!--            <artifactId>springfox-boot-starter</artifactId>-->
+        <!--            <version>3.0.0</version>-->
+        <!--        </dependency>-->
         <dependency>
             <!-- Knife4j 的 Spring Boot Starter，可以方便地与 Swagger 集成 -->
             <groupId>com.github.xiaoymin</groupId>
@@ -61,9 +67,37 @@
             <version>1.1.16</version>
         </dependency>
         <dependency>
+            <!-- jwt 获取token 相关依赖-->
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+
+
+        <dependency>
             <!-- Spring Boot 的 Web Starter，包含了 Tomcat 和 Spring Web 相关的依赖 -->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <!-- 排除Spring Boot默认的Logback依赖 -->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- 添加Log4j2的依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <!-- 添加 log4j2 中异步日志所需要的 disruptor 依赖 -->
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.4.2</version>
         </dependency>
 
         <dependency>

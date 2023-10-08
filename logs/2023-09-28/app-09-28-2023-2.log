@@ -1,0 +1,35 @@
+2023-09-28 21:48:24,173 INFO c.z.LoveLogApplication [main] Starting LoveLogApplication using Java 1.8.0_361 on DESKTOP-96QSMPD with PID 28920 (E:\14502\Documents\project\LoveLog\target\classes started by 14502 in E:\14502\Documents\project\LoveLog)
+2023-09-28 21:48:24,179 DEBUG c.z.LoveLogApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-09-28 21:48:24,179 INFO c.z.LoveLogApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-28 21:48:24,989 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 21:48:24,990 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 21:48:25,019 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-09-28 21:48:25,664 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-28 21:48:25,673 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-28 21:48:25,673 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-09-28 21:48:25,674 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-09-28 21:48:25,850 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-09-28 21:48:25,850 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1638 ms
+2023-09-28 21:48:27,109 INFO c.z.c.RedisConfig [main] 初始化 RedisCacheManager
+2023-09-28 21:48:27,460 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-09-28 21:48:27,485 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-28 21:48:27,687 INFO c.z.LoveLogApplication [main] Started LoveLogApplication in 4.013 seconds (JVM running for 5.426)
+2023-09-28 21:48:58,987 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28 21:48:58,987 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-28 21:48:58,989 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-09-28 21:48:59,058 INFO c.z.c.UserController [http-nio-8080-exec-1] 接收到用户啊啊啊啊登录信息
+2023-09-28 21:48:59,064 INFO c.z.s.ImageService [http-nio-8080-exec-1] 开始验证用户名啊啊啊啊 的密码。
+2023-09-28 21:48:59,085 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2023-09-28 21:48:59,265 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2023-09-28 21:48:59,332 INFO c.z.s.ImageService [http-nio-8080-exec-1] 用户名啊啊啊啊 密码验证成功。
+2023-09-28 21:48:59,334 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在创建JWT令牌...
+2023-09-28 21:48:59,876 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌已成功创建。
+2023-09-28 21:48:59,876 INFO c.z.c.UserController [http-nio-8080-exec-1] 用户啊啊啊啊登录成功
+2023-09-28 21:49:00,097 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1OTk1MzM5LCJpYXQiOjE2OTU5MDg5Mzl9.aYSTu5Irez5zoyS0nnjpxSHAi5sL0Exg8SzV_-S1qRg
+2023-09-28 21:49:00,097 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1OTk1MzM5LCJpYXQiOjE2OTU5MDg5Mzl9.aYSTu5Irez5zoyS0nnjpxSHAi5sL0Exg8SzV_-S1qRg
+2023-09-28 21:49:00,097 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-09-28 21:49:00,175 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-09-28 21:49:22,874 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1OTk1MzM5LCJpYXQiOjE2OTU5MDg5Mzl9.aYSTu5Irez5zoyS0nnjpxSHAi5sL0Exg8SzV_-S1qRg
+2023-09-28 21:49:22,875 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1OTk1MzM5LCJpYXQiOjE2OTU5MDg5Mzl9.aYSTu5Irez5zoyS0nnjpxSHAi5sL0Exg8SzV_-S1qRg
+2023-09-28 21:49:22,875 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] 正在验证JWT令牌...
+2023-09-28 21:49:22,875 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] JWT令牌验证成功。

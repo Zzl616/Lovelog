@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="App" packages="">
+    <!-- Appenders 定义了日志输出目标 -->
+    <Appenders>
+        <!-- 控制台输出appender，名称为Console，输出目标为系统控制台"/> -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- PatternLayout: 日志的输出格式 -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- 滚动文件输出appender: 根据文件大小或时间将日志输出到滚动文件-->
+        <RollingFile name="RollingFile" fileName="logs/app.log"
+                     filePattern="logs/$${date:yyyy-MM-dd}/app-%d{MM-dd-yyyy}-%i.log">
+            <!-- PatternLayout: 日志的输出格式 -->
+            <PatternLayout>
+                <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+            </PatternLayout>
+            <!-- Policies 定义触发滚动的策略 -->
+            <Policies>
+                <!-- OnStartupTriggeringPolicy: 在应用启动时重新创建日志文件 -->
+                <OnStartupTriggeringPolicy/>
+                <!-- TimeBasedTriggeringPolicy: 按时间（默认每天）滚动 -->
+                <TimeBasedTriggeringPolicy/>
+                <!-- SizeBasedTriggeringPolicy: 文件达到一定大小时滚动, size设置为5MB -->
+                <SizeBasedTriggeringPolicy size="5 MB"/>
+            </Policies>
+            <!-- DefaultRolloverStrategy: 保留的历史日志文件数量上限为30 -->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Loggers: 定义记录器和其级别 -->
+    <Loggers>
+        <!-- 异步日志记录器，处理com.zzlcxt包及其子包的日志，级别设为TRACE -->
+        <AsyncLogger name="com.zzlcxt" level="trace"
+                     includeLocation="false" queueSize="512"   additivity="false">
+            <!-- 指定此记录器要使用哪些附加器来输出日志 -->
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFile"/>
+        </AsyncLogger>
+
+        <!-- 日志记录器，处理com.example包及其子包的日志，级别设为INFO -->
+        <AsyncLogger name="com.example" level="INFO" includeLocation="false" queueSize="512" additivity="false">
+            <!-- 指定此记录器要使用哪些附加器来输出日志 -->
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFile"/>
+        </AsyncLogger>
+
+        <!-- 日志记录器，处理org.springframework.boot包及其子包的日志，级别设为INFO -->
+        <AsyncLogger name="org.springframework.boot" level="INFO" includeLocation="false" queueSize="512" additivity="false">
+            <!-- 指定此记录器要使用哪些附加器来输出日志 -->
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFile"/>
+        </AsyncLogger>
+
+        <!-- Root Logger(根记录器)，涵盖所有logger未覆盖的类，级别设为INFO -->
+        <AsyncRoot level="INFO" includeLocation="false" queueSize="512">
+            <!-- 指定此记录器要使用哪些附加器来输出日志 -->
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>
+

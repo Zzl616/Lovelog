@@ -10,7 +10,25 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher #swagger版本大于2.6需要加入此配置
-
+  redis:
+    # Redis本地服务器地址，注意要开启redis服务，即那个redis-server.exe
+    host: 127.0.0.1
+    # Redis服务器端口,默认为6379.若有改动按改动后的来
+    port: 6379
+    #Redis服务器连接密码，默认为空，若有设置按设置的来
+    password:
+    jedis:
+      pool:
+        # 连接池最大连接数，若为负数则表示没有任何限制
+        max-active: 8
+        # 连接池最大阻塞等待时间，若为负数则表示没有任何限制
+        max-wait: -1
+        # 连接池中的最大空闲连接
+        max-idle: 8
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
 ##mybatisplus配置
 mybatis-plus:
   configuration:
@@ -23,3 +41,16 @@ mybatis-plus:
 knife4j:
   # 是否开启增强模式
   enable: true
+
+#JWT配置
+jwt:
+  secret: zhangzljwt-miyao #JWT加解密使用的密钥
+
+#设置文件存储路径
+file:
+  #图片保存路径
+  image: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\Image"
+#设置url路径
+url:
+  #前端应用地址url
+  Front-end: "http://localhost:5173"

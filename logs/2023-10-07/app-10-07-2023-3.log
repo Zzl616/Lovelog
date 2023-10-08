@@ -1,0 +1,29 @@
+2023-10-07 20:04:34,079 INFO c.z.LoveLogApplication [main] Starting LoveLogApplication using Java 1.8.0_361 on DESKTOP-96QSMPD with PID 16380 (E:\14502\Documents\project\LoveLog\target\classes started by 14502 in E:\14502\Documents\project\LoveLog)
+2023-10-07 20:04:34,085 DEBUG c.z.LoveLogApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-10-07 20:04:34,085 INFO c.z.LoveLogApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-07 20:04:34,825 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-07 20:04:34,826 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-07 20:04:34,849 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-10-07 20:04:35,436 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-07 20:04:35,443 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-07 20:04:35,443 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-10-07 20:04:35,444 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-10-07 20:04:35,606 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-10-07 20:04:35,606 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1479 ms
+2023-10-07 20:04:36,849 INFO c.z.c.RedisConfig [main] 初始化 RedisCacheManager
+2023-10-07 20:04:37,181 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-07 20:04:37,206 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-07 20:04:37,419 INFO c.z.LoveLogApplication [main] Started LoveLogApplication in 3.819 seconds (JVM running for 5.167)
+2023-10-07 20:04:37,545 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 20:04:37,545 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-07 20:04:37,547 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-10-07 20:04:37,572 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2NzUxNTU2LCJpYXQiOjE2OTY2NjUxNTZ9.8O-WmiNJumOtZRGUsYlsbs8dfVmgCJ9dSFsTyJNrnJA
+2023-10-07 20:04:37,573 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2NzUxNTU2LCJpYXQiOjE2OTY2NjUxNTZ9.8O-WmiNJumOtZRGUsYlsbs8dfVmgCJ9dSFsTyJNrnJA
+2023-10-07 20:04:37,573 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在验证JWT令牌...
+2023-10-07 20:04:37,851 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌验证成功。
+2023-10-07 20:04:37,874 INFO c.z.s.ImageService [http-nio-8080-exec-1] 开始搜索用户名啊啊啊啊对应图片列表
+2023-10-07 20:04:37,922 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2023-10-07 20:04:38,044 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2023-10-07 20:04:38,299 INFO c.z.s.ImageService [http-nio-8080-exec-1] 成功获取用户名啊啊啊啊对应图片列表
+2023-10-07 20:07:34,605 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-07 20:07:34,614 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

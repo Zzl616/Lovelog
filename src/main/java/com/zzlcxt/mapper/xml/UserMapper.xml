@@ -2,4 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zzlcxt.dao.UserMapper">
 
+
+    <select id="findUser" resultType="java.lang.String"></select>
+    <select id="selectUser" resultType="java.lang.String"></select>
 </mapper>

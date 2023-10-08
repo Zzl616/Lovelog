@@ -1,0 +1,205 @@
+2023-09-20 19:20:59,924 INFO c.z.LoveLogApplication [main] Starting LoveLogApplication using Java 1.8.0_361 on DESKTOP-96QSMPD with PID 948 (E:\14502\Documents\project\LoveLog\target\classes started by 14502 in E:\14502\Documents\project\LoveLog)
+2023-09-20 19:20:59,931 DEBUG c.z.LoveLogApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-09-20 19:20:59,931 INFO c.z.LoveLogApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-20 19:21:00,713 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-20 19:21:00,715 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-20 19:21:00,739 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-09-20 19:21:01,363 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-09-20 19:21:01,372 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-20 19:21:01,372 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-09-20 19:21:01,372 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-09-20 19:21:01,537 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-09-20 19:21:01,537 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1569 ms
+2023-09-20 19:21:02,686 INFO c.z.c.RedisConfig [main] 初始化 RedisCacheManager
+2023-09-20 19:21:03,001 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-09-20 19:21:03,026 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-20 19:21:03,220 INFO c.z.LoveLogApplication [main] Started LoveLogApplication in 3.796 seconds (JVM running for 4.984)
+2023-09-20 19:21:08,684 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-20 19:21:08,684 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-09-20 19:21:08,687 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-09-20 19:21:08,721 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:21:08,721 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:21:08,721 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在验证JWT令牌...
+2023-09-20 19:21:09,028 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌验证成功。
+2023-09-20 19:21:09,119 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Starting...
+2023-09-20 19:21:09,273 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] HikariPool-1 - Start completed.
+2023-09-20 19:22:01,461 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:22:01,461 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:22:01,461 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] 正在验证JWT令牌...
+2023-09-20 19:22:01,461 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] JWT令牌验证成功。
+2023-09-20 19:22:09,414 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:22:09,414 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:22:09,414 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-09-20 19:22:09,415 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-09-20 19:22:40,115 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:22:40,115 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:22:40,115 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] 正在验证JWT令牌...
+2023-09-20 19:22:40,115 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] JWT令牌验证成功。
+2023-09-20 19:25:12,994 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:12,994 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:12,994 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] 正在验证JWT令牌...
+2023-09-20 19:25:12,994 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] JWT令牌验证成功。
+2023-09-20 19:25:14,929 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:14,929 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:14,929 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] 正在验证JWT令牌...
+2023-09-20 19:25:14,929 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] JWT令牌验证成功。
+2023-09-20 19:25:28,014 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:28,014 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:28,014 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] 正在验证JWT令牌...
+2023-09-20 19:25:28,015 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] JWT令牌验证成功。
+2023-09-20 19:25:41,362 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:41,362 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:41,362 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] 正在验证JWT令牌...
+2023-09-20 19:25:41,362 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] JWT令牌验证成功。
+2023-09-20 19:25:41,364 INFO c.z.c.ImageController [http-nio-8080-exec-9] 接收到图片IMG_20230707_144750.jpg
+2023-09-20 19:25:41,364 INFO c.z.s.ImageService [http-nio-8080-exec-9] 开始保存图像: IMG_20230707_144750.jpg
+2023-09-20 19:25:41,386 INFO c.z.s.ImageService [http-nio-8080-exec-9] 已成功保存图像: IMG_20230707_144750.jpg, 新文件名: 20230920192541367.jpg, 文件路径: E:\14502\Desktop\lovelogvue\lovelog\public\Image\20230920192541367.jpg
+2023-09-20 19:25:41,386 INFO c.z.c.ImageController [http-nio-8080-exec-9] 保存图片IMG_20230707_144750.jpg成功
+2023-09-20 19:25:43,702 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:43,702 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:25:43,702 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-09-20 19:25:43,703 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-09-20 19:29:41,699 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:29:41,699 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:29:41,699 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] 正在验证JWT令牌...
+2023-09-20 19:29:41,700 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] JWT令牌验证成功。
+2023-09-20 19:29:48,084 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:29:48,084 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:29:48,084 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-09-20 19:29:48,084 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-09-20 19:36:50,619 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:36:50,619 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:36:50,619 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-09-20 19:36:50,619 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-09-20 19:36:52,480 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:36:52,480 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:36:52,480 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] 正在验证JWT令牌...
+2023-09-20 19:36:52,480 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] JWT令牌验证成功。
+2023-09-20 19:37:43,374 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:37:43,374 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:37:43,374 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] 正在验证JWT令牌...
+2023-09-20 19:37:43,375 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] JWT令牌验证成功。
+2023-09-20 19:37:49,151 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:37:49,151 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:37:49,151 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] 正在验证JWT令牌...
+2023-09-20 19:37:49,151 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] JWT令牌验证成功。
+2023-09-20 19:42:20,597 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found] with root cause
+org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.init(FileItemIteratorImpl.java:189) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.getMultiPartStream(FileItemIteratorImpl.java:205) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:224) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:142) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:277) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:301) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2849) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2750) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:796) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1210) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1044) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_361]
+2023-09-20 19:42:20,601 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:42:20,601 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:42:20,601 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-09-20 19:42:20,602 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-09-20 19:42:23,327 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found] with root cause
+org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.init(FileItemIteratorImpl.java:189) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.getMultiPartStream(FileItemIteratorImpl.java:205) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.findNextItem(FileItemIteratorImpl.java:224) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemIteratorImpl.<init>(FileItemIteratorImpl.java:142) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:277) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:301) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2849) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.Request.getParts(Request.java:2750) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:796) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1210) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1044) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.27.jar:5.3.27]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.75.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.27.jar:5.3.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_361]
+2023-09-20 19:42:23,328 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:42:23,328 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk1Mjk1MTQ0LCJpYXQiOjE2OTUyMDg3NDR9.niAvD-YFziMjkRKkkThGxlmO8EKBiAiW6LF1HFfcIJs
+2023-09-20 19:42:23,328 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在验证JWT令牌...
+2023-09-20 19:42:23,328 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌验证成功。
+2023-09-20 19:42:58,006 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-09-20 19:42:58,014 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

@@ -1,6 +1,7 @@
 package com.zzlcxt;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
 import com.baomidou.mybatisplus.generator.config.GlobalConfig;
@@ -8,8 +9,11 @@ import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.sql.DataSource;
+import java.util.Scanner;
 
 /**
  * @version: java version 1.8
@@ -18,15 +22,37 @@ import javax.sql.DataSource;
  * @date: 2023-05-24 9:41
  */
 public class Generator {
+    @Value("${spring.datasource.driver-class-name}")
+    private static String driverName;
+
+    @Value("${spring.datasource.url}")
+    private static String mysqlUrl;
+    @Value("${spring.datasource.username}")
+    private static String Username;
+    @Value("${spring.datasource.password}")
+    private static String Password;
+    public static String scanner(String tip) {
+        Scanner scanner = new Scanner(System.in);
+        StringBuilder help = new StringBuilder();
+        help.append("请输入").append(tip).append("：");
+        System.out.println(help);
+        if (scanner.hasNext()) {
+            String ipt = scanner.next();
+            if (StringUtils.isNotBlank(ipt)) {
+                return ipt;
+            }
+        }
+        throw new MybatisPlusException("请输入正确的" + tip + "！");
+    }
+
     public static void main(String[] args) {
         AutoGenerator autoGenerator = new AutoGenerator();
         //数据库配置
         DataSourceConfig dataSource = new DataSourceConfig();
-        dataSource.setDriverName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/eating?useSSL=false" +
-                "&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8");
-        dataSource.setUsername("root");
-        dataSource.setPassword("root");
+        dataSource.setDriverName(driverName);
+        dataSource.setUrl(mysqlUrl);
+        dataSource.setUsername(Username);
+        dataSource.setPassword(Password);
 
         // 1. 全局配置
         GlobalConfig config = new GlobalConfig();
@@ -77,7 +103,7 @@ public class Generator {
                 // 驼峰命名转换为大写字母（例如：user_info -> UserInfo）
                 .setNaming(NamingStrategy.underline_to_camel)
                 // 数据库表名和字段名下划线转驼峰（例如：user_name -> userName）
-                .setInclude("user")
+                .setInclude(scanner("表名，多张表用逗号分隔").split(","))
                 // 设置要生成的表名
                 .setTablePrefix(pkConfig.getModuleName() + "_")
                 // 设置数据表前缀

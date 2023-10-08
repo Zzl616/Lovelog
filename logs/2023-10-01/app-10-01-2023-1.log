@@ -1,0 +1,165 @@
+2023-10-01 09:38:15,383 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h16m11s722ms701µs400ns).
+2023-10-01 12:15:54,075 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:15:54,076 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:15:54,076 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] 正在验证JWT令牌...
+2023-10-01 12:15:54,080 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] JWT令牌验证成功。
+2023-10-01 12:16:00,264 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:16:00,264 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:16:00,264 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] 正在验证JWT令牌...
+2023-10-01 12:16:00,269 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] JWT令牌验证成功。
+2023-10-01 12:16:13,024 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:16:13,024 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:16:13,024 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-10-01 12:16:13,025 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-10-01 12:19:19,666 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:19,666 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:19,666 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] 正在验证JWT令牌...
+2023-10-01 12:19:19,667 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] JWT令牌验证成功。
+2023-10-01 12:19:21,653 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:21,653 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:21,653 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] 正在验证JWT令牌...
+2023-10-01 12:19:21,653 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] JWT令牌验证成功。
+2023-10-01 12:19:39,203 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:39,203 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:39,203 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-10-01 12:19:39,203 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-10-01 12:19:39,776 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:39,776 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:39,776 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-10-01 12:19:39,776 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-10-01 12:19:44,733 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:44,733 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:19:44,733 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] 正在验证JWT令牌...
+2023-10-01 12:19:44,733 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] JWT令牌验证成功。
+2023-10-01 12:29:12,860 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:12,860 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:12,860 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] 正在验证JWT令牌...
+2023-10-01 12:29:12,861 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] JWT令牌验证成功。
+2023-10-01 12:29:14,687 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:14,687 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:14,687 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] 正在验证JWT令牌...
+2023-10-01 12:29:14,687 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] JWT令牌验证成功。
+2023-10-01 12:29:23,517 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:23,517 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:23,517 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-10-01 12:29:23,518 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-10-01 12:29:42,255 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:42,255 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:29:42,255 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在验证JWT令牌...
+2023-10-01 12:29:42,256 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌验证成功。
+2023-10-01 12:32:06,116 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:06,116 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:06,116 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] 正在验证JWT令牌...
+2023-10-01 12:32:06,116 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] JWT令牌验证成功。
+2023-10-01 12:32:33,225 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:33,225 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:33,225 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-10-01 12:32:33,225 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-10-01 12:32:34,596 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:34,596 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:34,596 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-10-01 12:32:34,596 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-10-01 12:32:43,161 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:43,161 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:32:43,161 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] 正在验证JWT令牌...
+2023-10-01 12:32:43,161 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] JWT令牌验证成功。
+2023-10-01 12:34:00,482 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:34:00,483 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:34:00,483 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] 正在验证JWT令牌...
+2023-10-01 12:34:00,483 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] JWT令牌验证成功。
+2023-10-01 12:34:50,141 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:34:50,141 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:34:50,141 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] 正在验证JWT令牌...
+2023-10-01 12:34:50,141 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] JWT令牌验证成功。
+2023-10-01 12:35:09,404 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:35:09,404 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:35:09,404 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-10-01 12:35:09,405 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-10-01 12:36:14,519 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:36:14,519 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:36:14,519 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] 正在验证JWT令牌...
+2023-10-01 12:36:14,520 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] JWT令牌验证成功。
+2023-10-01 12:39:41,527 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:39:41,528 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:39:41,528 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-10-01 12:39:41,528 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-10-01 12:39:44,018 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:39:44,018 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:39:44,018 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-10-01 12:39:44,018 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-10-01 12:40:58,490 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:40:58,490 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 12:40:58,490 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] 正在验证JWT令牌...
+2023-10-01 12:40:58,491 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] JWT令牌验证成功。
+2023-10-01 13:02:39,350 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:02:39,350 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:02:39,350 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-10-01 13:02:39,351 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-10-01 13:02:42,113 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:02:42,113 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:02:42,113 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在验证JWT令牌...
+2023-10-01 13:02:42,113 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌验证成功。
+2023-10-01 13:15:41,241 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:15:41,241 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:15:41,242 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] 正在验证JWT令牌...
+2023-10-01 13:15:41,242 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] JWT令牌验证成功。
+2023-10-01 13:15:47,356 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:15:47,356 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:15:47,356 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-10-01 13:15:47,357 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-10-01 13:15:53,531 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:15:53,531 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:15:53,531 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-10-01 13:15:53,532 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-10-01 13:16:16,673 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:16:16,674 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:16:16,674 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] 正在验证JWT令牌...
+2023-10-01 13:16:16,674 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] JWT令牌验证成功。
+2023-10-01 13:16:20,028 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:16:20,028 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-7] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:16:20,028 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] 正在验证JWT令牌...
+2023-10-01 13:16:20,029 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-7] JWT令牌验证成功。
+2023-10-01 13:16:27,330 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:16:27,330 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:16:27,330 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] 正在验证JWT令牌...
+2023-10-01 13:16:27,338 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] JWT令牌验证成功。
+2023-10-01 13:17:12,002 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:17:12,002 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-8] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:17:12,002 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] 正在验证JWT令牌...
+2023-10-01 13:17:12,003 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-8] JWT令牌验证成功。
+2023-10-01 13:17:44,017 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:17:44,017 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:17:44,017 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-10-01 13:17:44,018 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-10-01 13:19:30,326 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:30,326 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-2] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:30,326 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] 正在验证JWT令牌...
+2023-10-01 13:19:30,327 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-2] JWT令牌验证成功。
+2023-10-01 13:19:39,296 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:39,297 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-4] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:39,297 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] 正在验证JWT令牌...
+2023-10-01 13:19:39,297 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-4] JWT令牌验证成功。
+2023-10-01 13:19:44,521 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:44,521 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-5] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:44,521 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] 正在验证JWT令牌...
+2023-10-01 13:19:44,521 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-5] JWT令牌验证成功。
+2023-10-01 13:19:51,440 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:51,441 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-3] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:51,441 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] 正在验证JWT令牌...
+2023-10-01 13:19:51,441 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-3] JWT令牌验证成功。
+2023-10-01 13:19:54,684 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:54,684 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-6] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:19:54,684 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] 正在验证JWT令牌...
+2023-10-01 13:19:54,684 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-6] JWT令牌验证成功。
+2023-10-01 13:23:52,704 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:23:52,705 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-9] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:23:52,705 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] 正在验证JWT令牌...
+2023-10-01 13:23:52,705 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-9] JWT令牌验证成功。
+2023-10-01 13:27:12,693 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:27:12,693 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-10] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:27:12,693 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] 正在验证JWT令牌...
+2023-10-01 13:27:12,693 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-10] JWT令牌验证成功。
+2023-10-01 13:27:18,188 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 授权头部字段：Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:27:18,188 INFO c.z.c.JwtAuthenticationFilter [http-nio-8080-exec-1] 提取的令牌：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6emwiLCJuYW1lIjoi5ZWK5ZWK5ZWK5ZWKIiwiZXhwIjoxNjk2MTM5OTc5LCJpYXQiOjE2OTYwNTM1Nzl9.HYsxz1RG171xgdtNi6Y4S4TycULmKx1jRksrQIA5xno
+2023-10-01 13:27:18,189 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] 正在验证JWT令牌...
+2023-10-01 13:27:18,189 INFO c.z.u.JwtTokenUtil [http-nio-8080-exec-1] JWT令牌验证成功。
