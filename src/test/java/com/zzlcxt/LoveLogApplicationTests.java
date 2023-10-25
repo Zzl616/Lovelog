@@ -30,7 +30,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-@SpringBootTest
+@SpringBootTest(classes = LoveLogApplication.class)
 class LoveLogApplicationTests {
 
     @Autowired
