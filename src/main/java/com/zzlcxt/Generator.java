@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.VelocityTemplateEngine;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
 import java.util.Scanner;
@@ -21,16 +22,17 @@ import java.util.Scanner;
  * @description: mybatisplus代码自动生成
  * @date: 2023-05-24 9:41
  */
-public class Generator {
-    @Value("${spring.datasource.driver-class-name}")
-    private static String driverName;
 
-    @Value("${spring.datasource.url}")
-    private static String mysqlUrl;
-    @Value("${spring.datasource.username}")
-    private static String Username;
-    @Value("${spring.datasource.password}")
-    private static String Password;
+public class Generator {
+
+    private static String driverName ="com.mysql.cj.jdbc.Driver";
+
+
+    private static String mysqlUrl ="jdbc:mysql://localhost:3306/eating?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
+
+    private static String Username ="root";
+
+    private static String Password ="root";
     public static String scanner(String tip) {
         Scanner scanner = new Scanner(System.in);
         StringBuilder help = new StringBuilder();
@@ -53,7 +55,8 @@ public class Generator {
         dataSource.setUrl(mysqlUrl);
         dataSource.setUsername(Username);
         dataSource.setPassword(Password);
-
+        System.out.println(driverName);
+        System.out.println(Username);
         // 1. 全局配置
         GlobalConfig config = new GlobalConfig();
         config.setOutputDir(System.getProperty("user.dir") + "/src/main/java")

@@ -22,6 +22,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 
 /**
  * <p>
@@ -59,7 +60,8 @@ public class ImageServiceImpl extends ServiceImpl<ImageMapper, Image> implements
             String suffix = originalFilename.substring(originalFilename.lastIndexOf("."));
             double size = file.getSize();
             LocalDateTime now = LocalDateTime.now();
-
+            Random rand = new Random();
+            int randomNum = (char) ('a' + rand.nextInt(26));
             image.setName(name);
             image.setFilename(originalFilename);
             image.setSize(size);
@@ -68,7 +70,7 @@ public class ImageServiceImpl extends ServiceImpl<ImageMapper, Image> implements
             image.setUrl(imageDirectory);
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmssSSS");
             String nowStrForFileName = now.format(dtf);
-            String filenewname = nowStrForFileName+suffix;
+            String filenewname = nowStrForFileName+randomNum+suffix;
             image.setFilenewname(filenewname);
             File outputFile = new File(imageDirectory, filenewname);
             file.transferTo(outputFile);
@@ -79,7 +81,7 @@ public class ImageServiceImpl extends ServiceImpl<ImageMapper, Image> implements
             return true;
         } catch (Exception e) {
             logger.error("保存图像时出错: {}", file.getOriginalFilename(), e);
-            throw e;
+            return false;
         }
     }
 
@@ -88,7 +90,7 @@ public class ImageServiceImpl extends ServiceImpl<ImageMapper, Image> implements
         logger.info("开始搜索用户名{}对应图片列表", name);
         List<Object> filenewname;
         try {
-            QueryWrapper<Image> imageQueryWrapper = new QueryWrapper<Image>();
+            QueryWrapper<Image> imageQueryWrapper = new QueryWrapper<>();
             imageQueryWrapper.select("filenewname").eq("name",name);
             filenewname = imageMapper.selectObjs(imageQueryWrapper);
             logger.info("成功获取用户名{}对应图片列表", name);

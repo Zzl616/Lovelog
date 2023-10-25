@@ -31,7 +31,7 @@ import java.util.Objects;
  */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
-    private final Logger logger = LoggerFactory.getLogger(ImageService.class);
+    private final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
     @Autowired
     private UserMapper userMapper;
     private JwtTokenUtil jwttokenutil = new JwtTokenUtil();
@@ -74,7 +74,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             return users > 0;
         }catch (Exception e) {
             logger.error("查找同名用户过程出现错误", e);
-            throw e;
+            return false;
         }
     }
 
@@ -103,10 +103,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             return result;
         } catch (NoSuchAlgorithmException e) {
             logger.error("MD5加密过程出错", e);
-            throw e;
+            return false;
         } catch(Exception e){
             logger.error("验证密码过程出现错误", e);
-            throw e;
+            return false;
         }
     }
 
