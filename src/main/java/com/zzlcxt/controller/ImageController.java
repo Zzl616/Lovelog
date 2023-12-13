@@ -73,9 +73,10 @@ public class ImageController {
     @ApiOperation(value = "删除指定照片")
     @RequestMapping(value = "/deleteImage", method = RequestMethod.POST)
     @ResponseBody
-    public Result<String> deleteImage( String filenewname) {
+    public Result<String> deleteImage(@RequestHeader("Authorization") String header, String filenewname) {
         logger.info("开始删除指定文件名{}的图片", filenewname);
-        int i = imageService.deleteImageUrlByFilenewname(filenewname);
+        String name = jwtTokenUtil.nameByheader(header);
+        int i = imageService.deleteImageUrlByFilenewname(filenewname,name);
 
         if (i > 0) {
             logger.info("照片删除成功，文件名: {}", filenewname);

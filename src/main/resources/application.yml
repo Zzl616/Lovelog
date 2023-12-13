@@ -27,8 +27,8 @@ spring:
         max-idle: 8
   servlet:
     multipart:
-      max-file-size: 10MB
-      max-request-size: 100MB
+      max-file-size: 500MB
+      max-request-size: 500MB
 ##mybatisplus配置
 mybatis-plus:
   configuration:
@@ -48,8 +48,16 @@ jwt:
 
 #设置文件存储路径
 file:
+  #前端服务器路径
+  serverpath: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\"
   #图片保存路径
-  image: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\Image"
+  image: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\image"
+  #视频保存路径
+  video: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\video"
+  #精灵图保存路径
+  spritesheet: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\video\\spritesheet"
+  #vtt保存路径
+  vtt: "E:\\14502\\Desktop\\lovelogvue\\lovelog\\public\\video\\vtt"
 #设置url路径
 url:
   #前端应用地址url

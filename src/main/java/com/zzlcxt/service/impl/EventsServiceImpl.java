@@ -76,7 +76,7 @@ public class EventsServiceImpl extends ServiceImpl<EventsMapper, Events> impleme
             return integer > 0;
         } catch (Exception ex) {
             logger.error("查找同名事件过程出现错误：", ex);
-            return false;
+            throw ex;
         }
 
     }
@@ -95,11 +95,13 @@ public class EventsServiceImpl extends ServiceImpl<EventsMapper, Events> impleme
             } else {
                 logger.warn("未找到指定事件名{}的事件，无法执行删除操作", eventsname);
             }
+            return result;
         }catch (Exception e) {
-            result = -1;
+
             logger.error("删除指定事件{}失败: {}", eventsname, e.getMessage());
+            throw e;
         }
 
-        return result;
+
     }
 }

@@ -37,7 +37,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     private JwtTokenUtil jwttokenutil = new JwtTokenUtil();
 
     @Override
-    public User registered(User user) {
+    public User registered(User user) throws NoSuchAlgorithmException {
         try {
             logger.info("开始注册用户: {}", user.getName());
             String password = user.getPassword();
@@ -50,12 +50,18 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             //将信息写入数据库
             userMapper.insert(user);
             logger.info("用户 {} 已成功注册", user.getName());
+            return user;
         } catch (NoSuchAlgorithmException e) {
+
             logger.error("F加密密码失败: ", e);
+            throw e;
+
         } catch (Exception ex) {
             logger.error("注册用户失败: ", ex);
+            throw ex;
+
         }
-        return user;
+
     }
 
 
@@ -72,9 +78,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             logger.info(message);
 
             return users > 0;
-        }catch (Exception e) {
+        } catch (Exception e) {
             logger.error("查找同名用户过程出现错误", e);
-            return false;
+            throw e;
+
         }
     }
 
@@ -87,26 +94,26 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     @Override
     public boolean verifyPassword(String name, String password) throws NoSuchAlgorithmException {
         try {
-            logger.info("开始验证用户名{} 的密码。",name);
+            logger.info("开始验证用户名{} 的密码。", name);
             MessageDigest md5 = MessageDigest.getInstance("MD5");
             md5.update(password.getBytes());
             byte[] newPassword = md5.digest();
             String oldPassword = userMapper.passwordByName(name);
             boolean result = Objects.equals(Arrays.toString(newPassword), oldPassword);
 
-            if(result){
-                logger.info("用户名{} 密码验证成功。",name);
+            if (result) {
+                logger.info("用户名{} 密码验证成功。", name);
             } else {
-                logger.info("用户名{} 密码验证失败。",name);
+                logger.info("用户名{} 密码验证失败。", name);
             }
 
             return result;
         } catch (NoSuchAlgorithmException e) {
             logger.error("MD5加密过程出错", e);
-            return false;
-        } catch(Exception e){
+            throw e;
+        } catch (Exception e) {
             logger.error("验证密码过程出现错误", e);
-            return false;
+            throw e;
         }
     }
 

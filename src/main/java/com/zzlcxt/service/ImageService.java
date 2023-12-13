@@ -47,5 +47,5 @@ public interface ImageService extends IService<Image> {
      * @param filenewname
      * @return int
      */
-    int deleteImageUrlByFilenewname(String filenewname);
+    int deleteImageUrlByFilenewname(String filenewname,String name);
 }
